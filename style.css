@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Merriweather', serif;;
+    
+}
+
+.telas{     
+    display: flex;
+    height: 100vh;
+}
+
+.container01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 100vh;
+}
+
+.header img{
+    justify-items: center;
+    align-items: center;
+}
+
+.container02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+}
+
+.formulario{
+    margin-top: 162px;
+    width: 350px;
+}
+
+.formulario span{
+    display: block;
+    margin-bottom: 7px;
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.formulario h1{
+    margin-bottom: 39px;
+    color:#1A202C;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.formulario label{
+    margin-bottom: 11px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color:#1A202C;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.formulario input[type=text], 
+.formulario input[type=password]{
+    padding: 17px 20px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    margin-bottom: 11px;
+}
+
+.confAcesso{
+    margin-top: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.confAcesso input[type=checkbox]{
+    margin-right: 11px;
+
+}
+
+a {
+    color: #2B6CB0;
+    text-decoration: none;
+}
+
+.formulario button{
+    color: #FFFFFF;
+    font: 700 16px 'Lato', sans-serif;
+    margin-top: 26px;
+    width: 100%;
+    background-color: #04C35C;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario .google{
+    display: flex;
+    justify-content: center;
+    background-color: #1A202C;
+    align-items: center;
+}
+
+.google img{
+    margin-right: 11px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 162px;    
+    font: 400 16px 'Lato', sans-serif;
+}
+
